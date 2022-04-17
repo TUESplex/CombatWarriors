@@ -1,7 +1,7 @@
 --// Nothing Here \\--
 
 local _CW_ = "CombatWarriors"
-local _Link_ = "https://raw.githubusercontent.com/"
+local _Link_ = "https://raw.githubusercontent.com/TUESplex/CWPS/main/mainsoruce"
 loadstring(game:HttpGet(_Link_.._CW_, true))()
 
 game:GetService("StarterGui"):SetCore("SendNotification", {
